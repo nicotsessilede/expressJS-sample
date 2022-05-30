@@ -1,13 +1,17 @@
 {
-”name ” : ” d o c k e r w e b a p p ” ,
-” version ”: ”1.0.0” ,
-” d e s c r i p t i o n ” : ” Node . j s on D o c k e r ” ,
-” a u t h o r ” : ” F i r s t L a s t < f i r s t . l a s t @ e x a m p l e . com>” ,
-” main ” : ” s e r v e r . j s ” ,
-” s c r i p t s ”: {
-” s t a r t ” : ” node s e r v e r . j s ”
-} ,
-” dependencies ”: {
-” express ”: ”ˆ4.16.1”
+
+"name": "docker_web_app", 
+"version":"1.0.0",
+
+"description": "Node.js on Docker", 
+  "author": "First Last <first. last@example.com>",
+  "main": server.js", 
+  "scripts": {
+
+"start":"node server.js" 
+}.
+
+"dependencies": { 
+  "express": "^4.16.1"
 }
 }
