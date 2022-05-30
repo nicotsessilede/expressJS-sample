@@ -1,17 +1,21 @@
 'use strict';
-const express = require('express');
 
-const PORT = 8080;
+const express require('express ');
 
-const app = express();
-app.get('/', (req, res) => {
-  res.send('Hello world');
+// Constants
+
+cont PORT = 8081;
+const HOST = '0.0.0.0';
+
+//App
+
+const app = express (); 
+app.get ('/', (req, res) =>{
+
+  res.send('Hello World');
+
 });
-app.get('/ping',(req,res)=> {
- res.send ("Hey whats up!");
-});
-app.get('/bad-ping',(req,res)=> {
-    res.status(500).send('Sorry I am down ;(');
-});
-app.listen(PORT);
-console.log(`Running on localhost:${PORT}`);
+
+app.listen(PORT, HOST);
+
+console.log('Server running on http://${HOST}: {PORT}');
