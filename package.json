@@ -5,7 +5,7 @@
 
 "description": "Node.js on Docker", 
   "author": "First Last <first. last@example.com>",
-  "main": server.js", 
+  "main": "server.js", 
   "scripts": {
 
 "start":"node server.js" 
